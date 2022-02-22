@@ -1,0 +1,42 @@
+{
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "x",
+          "type": "string"
+        }
+      ],
+      "name": "set",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "networks": {
+    "1645504035530": {
+      "events": {},
+      "links": {},
+      "address": "0x24734d4ff79203B17D2a8Bd08e5184712bbf7E53",
+      "transactionHash": "0xf01a9354bfb9a9a27b8b2261debd1e5fd18bc11fe52269c362d6ff4cfc2ecd13"
+    }
+  }
+}

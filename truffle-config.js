@@ -1,23 +1,24 @@
  const HDWalletProvider = require('@truffle/hdwallet-provider');
  const privateKey = "**********************************************************";
  const endpointUrl = "https://kovan.infura.io/v3/***************************";
-
+ const mnemonicDev = "false craft rookie food village exhaust purity great farm rate draft drip";
 module.exports = {
 
   networks: {
-    // development: {
-    //  host: "127.0.0.1",     // Localhost (default: none)
-    //  port: 8545,            // Standard Ethereum port (default: none)
-    //  network_id: "*",       // Any network (default: none)
-    //  gas: 999999999,           // Gas sent with each transaction (default: ~6700000) 0x3B9AC9FF
-    // //  gasPrice: 20000000000
-    // },
-    ganache: {
-      provider: () => new HDWalletProvider(mnemonicDev, `HTTP://127.0.0.1:7545`),
-      host: "127.0.0.1",     // Localhost (default: none)
-      network_id: "*" ,      // Any network (default: none)
-      gas: 999999999,
-     },
+    development: {
+     host: "127.0.0.1",     // Localhost (default: none)
+     port: 8545,            // Standard Ethereum port (default: none)
+     network_id: "*",       // Any network (default: none)
+     gas: 999999999,           // Gas sent with each transaction (default: ~6700000) 0x3B9AC9FF
+    //  gasPrice: 20000000000
+    },
+    // ganache: {
+    //   provider: () => new HDWalletProvider(mnemonicDev, `HTTP://127.0.0.1:8545`),
+    //   host: "127.0.0.1",     // Localhost (default: none)
+    //   port: 8545,
+    //   network_id: "*" ,      // Any network (default: none)
+    //   gas: 999999999,
+    //  },
     // Another network with more advanced options...
     // advanced: {
     // port: 8777,             // Custom port

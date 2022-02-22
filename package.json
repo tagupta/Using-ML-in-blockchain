@@ -1,0 +1,27 @@
+{
+  "name": "projectfourthsem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "ipfs-api": "^26.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tagupta/Using-ML-in-blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tagupta/Using-ML-in-blockchain/issues"
+  },
+  "homepage": "https://github.com/tagupta/Using-ML-in-blockchain#readme"
+}
