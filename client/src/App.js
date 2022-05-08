@@ -41,7 +41,7 @@ class App extends Component {
     this.setState({ ipfsHash: response });
   };
 
-   onSubmit = async (event) => {
+  onSubmit = async (event) => {
     const {buffer, accounts, contract} = this.state;
     event.preventDefault();
     console.log('OnSubmit.....');
