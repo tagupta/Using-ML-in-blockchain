@@ -38,4 +38,18 @@ Preparing the data for training for the participants of the model.
 * A sequence length and a future predict period are also submitted.
 * Make sure that the initial level of the contract is zero for the successful execution of the function.
 
+![image33](https://user-images.githubusercontent.com/45707143/173199741-4590495c-d752-46d6-9cc0-5f28ab43cb62.PNG)
+
+### Submission Stage
+Before submitting the solution, a user gets the dataset from IPFS hashes. Using these hashes they can download the files. The user trains the model independently at his end using the given dataset. During this stage, any user can submit the potential model in a given time frame.
+
+1. User submits the model solution by calling the submit_model function with the following parameters:
+  * The address of the user.
+  * The number of dense layers needed.
+  * The number of units needed in each LSTM layer
+  * The number of LSTM layers required.
+  * The activation function
+  * The loss function.
+
+
 
