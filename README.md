@@ -50,6 +50,17 @@ Before submitting the solution, a user gets the dataset from IPFS hashes. Using 
   * The number of LSTM layers required.
   * The activation function
   * The loss function.
+  
+  ![image44](https://user-images.githubusercontent.com/45707143/173199901-ec5782f4-ae9f-4cde-b993-f1aa3d841970.PNG)
+  
+  ### Evaluation Stage
+  The evaluation stage begins after the submission stage. In this stage, the owner fetches all the model solutions submitted by the users to evaluate the model at his end. 
+
+1. Owner trains the model using the definitions specified by the users and passes the accuracy metric to the evaluation function for each solution.
+
+* In the set_evaluaion_metrics function, models with accuracies less than the minimum are eliminated and the best submission ID along with its accuracy is stored on the blockchain.
+
+
 
 
 
