@@ -29,5 +29,13 @@ The model is divided into several stages:
 
 ### Preprocessing stage
 Preparing the data for training for the participants of the model.
+![image22](https://user-images.githubusercontent.com/45707143/173199626-e0f938dd-b067-4bb1-9667-34a616954c4d.PNG)
+
+### Initialization Stage
+* Reward is deposited in the contract by the owner in form of funds, 10 ETH to be specific.
+* IPFS hashes of the files are added for training data for the users.
+* A minimum accuracy metric is added to eliminate low-performance models.
+* A sequence length and a future predict period are also submitted.
+* Make sure that the initial level of the contract is zero for the successful execution of the function.
 
 
