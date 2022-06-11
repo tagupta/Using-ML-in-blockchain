@@ -60,6 +60,13 @@ Before submitting the solution, a user gets the dataset from IPFS hashes. Using 
 
 * In the set_evaluaion_metrics function, models with accuracies less than the minimum are eliminated and the best submission ID along with its accuracy is stored on the blockchain.
 
+![image55](https://user-images.githubusercontent.com/45707143/173200060-4683d784-5e30-469d-b0a4-440a84c871db.PNG)
+
+### Final Stage
+
+* After the completion of the evaluation period, the owner can transfer the rewards to the best-submitted model using the finalize_contract function.
+* In the absence of no best model, the reward will be paid back to the owner.
+
 
 
 
