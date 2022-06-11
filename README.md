@@ -25,7 +25,9 @@ The model is divided into several stages:
 * Evaluation stage
 * Final stage
 
+![image11](https://user-images.githubusercontent.com/45707143/173199426-dee99ecf-935c-4eb8-839a-fff9d2b465c6.PNG)
 
-
+### Preprocessing stage
+Preparing the data for training for the participants of the model.
 
 
