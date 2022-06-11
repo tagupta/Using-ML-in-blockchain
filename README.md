@@ -67,6 +67,9 @@ Before submitting the solution, a user gets the dataset from IPFS hashes. Using 
 * After the completion of the evaluation period, the owner can transfer the rewards to the best-submitted model using the finalize_contract function.
 * In the absence of no best model, the reward will be paid back to the owner.
 
+![image66](https://user-images.githubusercontent.com/45707143/173200125-021c183d-db5c-4005-95d3-683ef2285809.PNG)
+
+
 
 
 
