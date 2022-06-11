@@ -26,4 +26,7 @@ The model is divided into several stages:
 * Final stage
 
 
+![image 1](https://user-images.githubusercontent.com/45707143/173194356-be86c4d5-f7b9-4714-b033-90b687ae48ab.PNG)
+
+
 
