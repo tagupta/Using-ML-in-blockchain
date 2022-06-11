@@ -69,6 +69,30 @@ Before submitting the solution, a user gets the dataset from IPFS hashes. Using 
 
 ![image66](https://user-images.githubusercontent.com/45707143/173200125-021c183d-db5c-4005-95d3-683ef2285809.PNG)
 
+## Main Component
+Main file of the project to test the working flow is ```SetUp.py```.
+### Basic understanding 
+* *Owner :* software agent or organization wants to solicit solutions from all over the world
+* *Participants :* those who can solve the ML problem
+* *Question in mind :* What RNN (Recurrent Neural Network) model can train the time series data of crypto prices in a decentralized manner?
+* *Answer:* One with best hyperparameters capable of providing accuracy better than other submitted models
+* 
+  *1. Owner fetches data from coinpaprica API and stores that in CSV files for training.*
+  
+  *2. Owner stores these files to IPFS and stores their corresponding content IDs to Blockchain for the participants.*
+  
+  *3. Each participant downloads the dataset and train the model on their own.*
+  
+  *4. Participants submit their solutions during the submission period.*
+  
+  *5. Beyond the submission period, no submissions were accepted.*
+  
+  *6. The evaluation period then begins, during which the owner reviews each of the answers on his end in order to determine the best submission with the highest accuracy.*
+  
+  *7. After the evaluation period, the owner adds the ID of the best submission to the Blockchain.*
+  
+  *8. One with the best ID gets rewarded else the reward is paid back to the owner.*
+
 
 
 
